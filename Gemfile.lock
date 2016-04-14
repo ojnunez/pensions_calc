@@ -28,6 +28,13 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
+    autoprefixer-rails (5.2.0)
+      execjs
+      json
+    bootstrap-sass (3.3.4.1)
+      autoprefixer-rails (>= 5.0.0.1)
+      sass (>= 3.2.19)
+    bootstrap_form (2.3.0)
     builder (3.2.2)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -38,6 +45,15 @@ GEM
     coffee-script-source (1.10.0)
     erubis (2.7.0)
     execjs (2.6.0)
+    font-awesome-sass (4.3.2.1)
+      sass (~> 3.2)
+    haml (4.0.6)
+      tilt
+    haml-rails (0.5.3)
+      actionpack (>= 4.0.1)
+      activesupport (>= 4.0.1)
+      haml (>= 3.1, < 5.0)
+      railties (>= 4.0.1)
     hike (1.2.3)
     i18n (0.7.0)
     jbuilder (2.4.1)
@@ -49,11 +65,14 @@ GEM
     json (1.8.3)
     mail (2.6.4)
       mime-types (>= 1.16, < 4)
+    meta-tags (2.0.0)
+      actionpack (>= 3.0.0)
     mime-types (3.0)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0221)
     minitest (5.8.4)
     multi_json (1.11.2)
+    nested_form (0.3.2)
     rack (1.5.5)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -109,9 +128,15 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (~> 3.3.4)
+  bootstrap_form
   coffee-rails (~> 4.0.0)
+  font-awesome-sass (~> 4.3.2)
+  haml-rails (~> 0.5.3)
   jbuilder (~> 2.0)
   jquery-rails
+  meta-tags (~> 2.0.0)
+  nested_form (~> 0.3.2)
   rails (= 4.1.6)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)

@@ -38,3 +38,20 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+
+# Haml-rails provides Haml generators for Rails 4
+gem 'haml-rails', '~> 0.5.3'
+
+# Rails plugin to conveniently handle multiple models in a single form.
+gem 'nested_form', '~> 0.3.2'
+
+# Official Sass port of Bootstrap
+gem 'bootstrap-sass', '~> 3.3.4'
+
+# Search Engine Optimization (SEO) plugin for Ruby on Rails applications.
+gem 'meta-tags', '~> 2.0.0'
+
+# Use the Official Font Awesome SASS Ruby Gem to easily get Font Awesome SASS into a Rails or Compass project.
+gem 'font-awesome-sass', '~> 4.3.2'
+
+gem 'bootstrap_form'
