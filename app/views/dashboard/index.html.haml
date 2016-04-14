@@ -40,6 +40,9 @@
               .color-item-blue
               .text-item
                 = t('.approximate_on_mixed_pensions_system')
+            %p.dollar-values
+              * Valores en dólares americanos (USD)
+
           .canvas-holder
             %canvas{id: "pension"}
             :javascript
@@ -78,6 +81,8 @@
               .color-item-blue
               .text-item
                 = t('.insurance_and_payments_to_afp_reform') 
+            %p.dollar-values
+              * Valores en dólares americanos (USD)
           .canvas-holder
             %canvas{id: "bar-comision-afp"}
             :javascript
@@ -174,7 +179,7 @@
         .col-sm-6
           .table-responsive
             %table.table.table-bordered.table-striped
-              %tr
+              %tr{class: "warning"}
                 %td
                   = t('.minimal_pension_subsidy')
                 %td
@@ -184,7 +189,7 @@
                   = t('.personal_saves_on_afp')
                 %td
                   = number_to_currency(@pension_segun_ahorros_actual)
-              %tr
+              %tr{class: "warning"}
                 %td
                   = t('.insurance_and_payments_to_afp')
                 %td
@@ -194,7 +199,7 @@
                   = t('.approximate_lasting_years_private')
                 %td 
                   = @anios_de_pension_a_recibir 
-              %tr
+              %tr{class: "warning"}
                 %td
                   = t('.approximate_years_goverment_assumption')
                 %td
@@ -210,7 +215,7 @@
                   = t('.average_financial_assumption_by_gov')
                 %td
                   = number_to_currency(@financiamiento_asumido_por_estado_actual)
-              %tr
+              %tr{class: "warning"}
                 %td
                   = t('.goverment_individual_savings')
                 %td
@@ -218,7 +223,7 @@
         .col-sm-6
           .table-responsive
             %table.table.table-bordered.table-striped
-              %tr
+              %tr{class: "warning"}
                 %td
                   = t('.approximate_on_mixed_pensions_system')
                 %td
@@ -234,7 +239,7 @@
                     = t('.pension_percentage_according_to_salary')
                   %td
                     = number_to_percentage(@porcentaje_respecto_salario_reforma*100, precision: 0)
-              %tr
+              %tr{class: "warning"}
                 %td
                   = t('.average_financial_assumption_by_gov_mixed')
                 %td
