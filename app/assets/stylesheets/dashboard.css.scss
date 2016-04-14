@@ -50,10 +50,21 @@ body {
   max-width: 400px;
   text-align: center;
   margin: 0 auto;
+  position: relative;
+  .percentage-value{
+    position: absolute; 
+    width: 100px; 
+    height: 50px; 
+    font-size: 30px; 
+    font-weight: bold; 
+    right: 0; 
+    top: 20%;
+  }
 }
 
 .graphic-legend{
   background: #fff;
+  min-height: 130px;
 }
 
 .items{
@@ -89,4 +100,13 @@ p.dollar-values{
   font-size: 11px;
 }
               
-              
+table.table.table-bordered.table-striped{
+  td.value{
+    width: 30%;
+    text-align: right;
+    font-size: 16px;
+  }
+  td.data-info{
+    width: 70%; 
+  }
+}                            

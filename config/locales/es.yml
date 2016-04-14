@@ -5,7 +5,7 @@ es:
       enter_gender: Sexo
       current_system: Sistema Actual
       reform: Reforma 
-      minimal_pension_subsidy: Pensión mensual con subsidio de pensión mínima si aplica
+      minimal_pension_subsidy: "Pensión mensual con subsidio de pensión mínima si aplica, en sistema actual"
       personal_saves_on_afp: Pensión mensual aproximada en AFP basado en el ahorro individual
       insurance_and_payments_to_afp: Comisión y seguros pagados a las AFP en sistema actual
       approximate_lasting_years_private: Años aproximados que durararía su ahorro de mantenerse el monto de pensión

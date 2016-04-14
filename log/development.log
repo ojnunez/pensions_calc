@@ -13814,3 +13814,2677 @@ Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 15:23:35 -
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 15:23:35 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=900.0&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 15:28:06 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"900.0", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (12.1ms)
+Completed 200 OK in 1111ms (Views: 1110.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 15:28:07 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 15:28:07 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 15:28:07 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 15:28:07 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 15:28:07 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 15:28:07 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 15:28:07 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 15:28:07 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 15:28:07 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 15:28:07 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 15:28:07 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 15:28:07 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 15:28:07 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 15:28:07 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 15:28:07 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 15:28:07 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 15:28:07 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 15:28:07 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:28:07 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:28:07 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 15:28:07 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 15:28:07 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=900.0&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 15:29:25 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"900.0", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (16.6ms)
+Completed 200 OK in 1108ms (Views: 1106.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 15:29:26 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 15:29:26 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 15:29:26 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 15:29:26 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 15:29:26 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 15:29:26 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 15:29:26 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 15:29:26 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 15:29:26 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 15:29:26 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 15:29:26 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 15:29:26 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 15:29:26 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 15:29:26 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 15:29:26 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 15:29:26 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 15:29:26 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 15:29:26 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:29:26 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 15:29:26 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:29:26 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 15:29:26 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=900.0&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 15:30:39 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"900.0", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (27.7ms)
+Completed 200 OK in 1245ms (Views: 1244.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 15:30:40 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 15:30:40 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 15:30:41 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 15:30:41 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 15:30:41 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 15:30:41 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 15:30:41 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 15:30:41 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 15:30:41 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 15:30:41 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 15:30:41 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 15:30:41 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 15:30:41 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 15:30:41 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 15:30:41 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 15:30:41 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 15:30:41 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 15:30:41 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:30:41 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:30:41 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 15:30:41 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 15:30:41 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=900.0&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 15:31:21 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"900.0", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (23.3ms)
+Completed 200 OK in 1181ms (Views: 1179.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 15:31:22 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 15:31:22 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 15:31:22 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 15:31:22 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 15:31:22 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 15:31:22 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 15:31:22 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 15:31:22 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 15:31:22 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 15:31:22 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 15:31:22 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 15:31:22 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 15:31:22 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 15:31:22 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 15:31:22 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 15:31:22 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 15:31:22 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 15:31:22 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:31:22 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:31:22 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 15:31:22 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 15:31:22 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=900.0&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 15:32:14 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"900.0", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (21.7ms)
+Completed 200 OK in 172ms (Views: 171.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 15:32:14 -0600
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 15:32:14 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 15:32:14 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 15:32:14 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 15:32:14 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 15:32:14 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 15:32:14 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 15:32:14 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 15:32:14 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 15:32:14 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 15:32:14 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 15:32:14 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 15:32:14 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 15:32:14 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 15:32:14 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 15:32:14 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 15:32:14 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 15:32:14 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:32:14 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:32:14 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 15:32:14 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 15:32:14 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=900.0&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 15:39:54 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"900.0", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (24.8ms)
+Completed 200 OK in 1155ms (Views: 1154.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 15:39:55 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 15:39:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 15:39:55 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 15:39:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 15:39:55 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 15:39:55 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 15:39:55 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 15:39:55 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 15:39:55 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 15:39:55 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 15:39:55 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 15:39:55 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 15:39:55 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 15:39:55 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 15:39:55 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 15:39:55 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 15:39:55 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 15:39:55 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:39:55 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:39:55 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 15:39:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 15:39:55 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=900.0&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 15:45:12 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"900.0", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (23.8ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (String can't be coerced into Fixnum):
+    121:           .canvas-holder
+    122:             %canvas{id: "chart-area-actual"}
+    123:             .percentage-value
+    124:               = (@porcentaje_respecto_salario_actual*100).round(0) + "%"
+    125:             :javascript
+    126:               var doughnutDataActual = [
+    127:                 {
+  app/views/dashboard/index.html.haml:124:in `+'
+  app/views/dashboard/index.html.haml:124:in `_app_views_dashboard_index_html_haml___3158529397850695275_70191426712120'
+
+
+  Rendered /home/oscar/.rvm/gems/ruby-2.1.3@gobsv/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/oscar/.rvm/gems/ruby-2.1.3@gobsv/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/oscar/.rvm/gems/ruby-2.1.3@gobsv/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.9ms)
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=900.0&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 15:45:34 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"900.0", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (27.0ms)
+Completed 200 OK in 182ms (Views: 180.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 15:45:34 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 15:45:34 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 15:45:34 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 15:45:34 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 15:45:34 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 15:45:34 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 15:45:34 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 15:45:34 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 15:45:34 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 15:45:34 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 15:45:34 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 15:45:34 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 15:45:34 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 15:45:34 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 15:45:34 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 15:45:34 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 15:45:34 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 15:45:34 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:45:34 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:45:34 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 15:45:34 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 15:45:34 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=900.0&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 15:46:37 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"900.0", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (10.9ms)
+Completed 200 OK in 1196ms (Views: 1195.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 15:46:38 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 15:46:38 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 15:46:38 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 15:46:38 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 15:46:38 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 15:46:38 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 15:46:38 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 15:46:38 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 15:46:38 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 15:46:38 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 15:46:38 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 15:46:38 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 15:46:38 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 15:46:38 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 15:46:38 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 15:46:38 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 15:46:38 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 15:46:38 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:46:38 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:46:38 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 15:46:38 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 15:46:38 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=900.0&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 15:47:35 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"900.0", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (25.0ms)
+Completed 200 OK in 177ms (Views: 176.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 15:47:35 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 15:47:35 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 15:47:35 -0600
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 15:47:35 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 15:47:35 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 15:47:35 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 15:47:35 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 15:47:35 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 15:47:35 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 15:47:35 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 15:47:35 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 15:47:35 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 15:47:35 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 15:47:35 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 15:47:35 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 15:47:35 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 15:47:35 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 15:47:35 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:47:35 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:47:35 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 15:47:35 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 15:47:35 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=900.0&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 15:48:39 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"900.0", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (24.0ms)
+Completed 200 OK in 193ms (Views: 192.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 15:48:40 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 15:48:40 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 15:48:40 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 15:48:40 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 15:48:40 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 15:48:40 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 15:48:40 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 15:48:40 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 15:48:40 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 15:48:40 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 15:48:40 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 15:48:40 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 15:48:40 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 15:48:40 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 15:48:40 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 15:48:40 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 15:48:40 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 15:48:40 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:48:40 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:48:40 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 15:48:40 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 15:48:40 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=900.0&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 15:50:00 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"900.0", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (23.5ms)
+Completed 200 OK in 168ms (Views: 167.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 15:50:00 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 15:50:00 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 15:50:00 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 15:50:00 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 15:50:00 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 15:50:00 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 15:50:00 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 15:50:00 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 15:50:00 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 15:50:00 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 15:50:00 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 15:50:00 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 15:50:00 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 15:50:00 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 15:50:00 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 15:50:00 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 15:50:00 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 15:50:00 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:50:00 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:50:00 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 15:50:00 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 15:50:00 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=900.0&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 15:52:11 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"900.0", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (11.3ms)
+Completed 200 OK in 1162ms (Views: 1160.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 15:52:12 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:12 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:12 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 15:52:12 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:12 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:12 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:12 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:12 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:12 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:12 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:12 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:12 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:12 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:12 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:12 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:12 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:12 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:12 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:12 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:12 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:12 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=900.0&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 15:52:37 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"900.0", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (23.5ms)
+Completed 200 OK in 168ms (Views: 167.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 15:52:37 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 15:52:37 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:37 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:37 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:37 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:37 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:37 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:37 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:37 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:37 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:37 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:37 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:37 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:37 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:37 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:37 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:37 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:37 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:37 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:37 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:37 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:37 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=900.0&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 15:52:56 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"900.0", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (26.1ms)
+Completed 200 OK in 192ms (Views: 191.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 15:52:56 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:56 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:56 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:56 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 15:52:56 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:56 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:56 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:56 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:56 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:56 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:56 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:56 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:56 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:56 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:56 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:56 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:56 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:56 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:56 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:56 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:56 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 15:52:56 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=450&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 15:59:11 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"450", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (25.2ms)
+Completed 200 OK in 158ms (Views: 156.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 15:59:11 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 15:59:11 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 15:59:11 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 15:59:11 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 15:59:11 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 15:59:11 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 15:59:11 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 15:59:11 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 15:59:11 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 15:59:11 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 15:59:11 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 15:59:11 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 15:59:11 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 15:59:11 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 15:59:11 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 15:59:11 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 15:59:11 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 15:59:11 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:59:11 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 15:59:11 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 15:59:11 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 15:59:11 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=450&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 16:03:24 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"450", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (7.6ms)
+Completed 200 OK in 142ms (Views: 141.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 16:03:24 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 16:03:24 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 16:03:24 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 16:03:24 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 16:03:24 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 16:03:24 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 16:03:24 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 16:03:24 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 16:03:24 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 16:03:24 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 16:03:24 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 16:03:24 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 16:03:24 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 16:03:24 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 16:03:24 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 16:03:24 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 16:03:24 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:03:24 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 16:03:24 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:03:24 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 16:03:24 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 16:03:24 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=450&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 16:04:08 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"450", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (5.3ms)
+Completed 200 OK in 1081ms (Views: 1080.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 16:04:09 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 16:04:09 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 16:04:09 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 16:04:09 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 16:04:09 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 16:04:09 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 16:04:09 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 16:04:09 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 16:04:09 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 16:04:09 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 16:04:09 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 16:04:09 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 16:04:09 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 16:04:09 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 16:04:09 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 16:04:09 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 16:04:09 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 16:04:09 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:04:09 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:04:09 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 16:04:09 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 16:04:09 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=450&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 16:14:03 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"450", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (6.5ms)
+Completed 200 OK in 551ms (Views: 549.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 16:14:03 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:04 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:04 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:04 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:04 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:04 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:04 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:04 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:04 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:04 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:04 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:04 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:04 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:04 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:04 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:04 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:04 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:04 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:04 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:04 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:04 -0600
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 16:14:04 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 16:14:07 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (3.7ms)
+Completed 200 OK in 145ms (Views: 144.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 16:14:07 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:07 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:07 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:07 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:07 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:07 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:07 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:07 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 16:14:07 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:07 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:07 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:07 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:07 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:07 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:07 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:07 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:07 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:07 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:07 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:07 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:07 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:07 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 16:14:24 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (23.5ms)
+Completed 500 Internal Server Error in 27ms
+
+SyntaxError (/home/oscar/Projects/Rails/pensions_calc/app/views/dashboard/index.html.haml:16: syntax error, unexpected ':', expecting ')'
+...rams[:wage].to_f.abs. required: true
+...                               ^):
+  app/views/dashboard/index.html.haml:16: syntax error, unexpected ':', expecting ')'
+
+
+  Rendered /home/oscar/.rvm/gems/ruby-2.1.3@gobsv/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/oscar/.rvm/gems/ruby-2.1.3@gobsv/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/oscar/.rvm/gems/ruby-2.1.3@gobsv/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/oscar/.rvm/gems/ruby-2.1.3@gobsv/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.8ms)
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 16:14:29 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (28.9ms)
+Completed 200 OK in 159ms (Views: 158.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 16:14:29 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 16:14:29 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:29 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:29 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:29 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:29 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:29 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:29 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:29 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:29 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:29 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:29 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:29 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:29 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:29 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:29 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:29 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:29 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:29 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:29 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:29 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:29 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 16:14:33 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 137ms (Views: 136.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 16:14:33 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:33 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:33 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:33 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:34 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:34 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:34 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:34 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:34 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 16:14:34 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:34 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:34 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:34 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:34 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:34 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:34 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:34 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:34 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:34 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:34 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:34 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 16:14:34 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-14 16:15:39 -0600
+Processing by DashboardController#index as HTML
+  Rendered dashboard/index.html.haml within layouts/application (25.1ms)
+Completed 200 OK in 258ms (Views: 249.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 16:15:39 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:39 -0600
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 16:15:39 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:39 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:39 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:39 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:39 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:39 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:39 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:39 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:39 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:39 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:39 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:39 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:39 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:39 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:39 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:39 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:39 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:39 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:39 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:39 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=0&%5Bgender%5D=&commit=Calcular" for 127.0.0.1 at 2016-04-14 16:15:50 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"0", "gender"=>"", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (3.1ms)
+Completed 200 OK in 141ms (Views: 139.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 16:15:51 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:51 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:51 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:51 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 16:15:51 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:51 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:51 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:51 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:51 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:51 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:51 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:51 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:51 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:51 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:51 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:51 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:51 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:51 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:51 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:51 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:51 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=0.0&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 16:15:55 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"0.0", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (3.3ms)
+Completed 200 OK in 148ms (Views: 147.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 16:15:55 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 16:15:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:55 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:55 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:55 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:55 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:55 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:55 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:55 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:55 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:55 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:55 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:55 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:55 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:55 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:55 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:55 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:55 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:55 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 16:15:55 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=0.0&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 16:17:55 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"0.0", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (18.6ms)
+Completed 200 OK in 166ms (Views: 165.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 16:17:55 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 16:17:55 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 16:17:55 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 16:17:55 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 16:17:55 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 16:17:55 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 16:17:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 16:17:55 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 16:17:55 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 16:17:55 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 16:17:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 16:17:55 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 16:17:55 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 16:17:55 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 16:17:55 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 16:17:55 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 16:17:55 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 16:17:55 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:17:55 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 16:17:55 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:17:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 16:17:55 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=0.0&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 16:20:03 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"0.0", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (21.0ms)
+Completed 200 OK in 161ms (Views: 160.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 16:20:03 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 16:20:03 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:03 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:03 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:03 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:03 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:03 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:03 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:03 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:03 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:03 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:03 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:03 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:03 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:03 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:03 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:03 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:03 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:03 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:03 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:03 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:03 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=1&%5Bgender%5D=&commit=Calcular" for 127.0.0.1 at 2016-04-14 16:20:12 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"1", "gender"=>"", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (9.9ms)
+Completed 200 OK in 145ms (Views: 144.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 16:20:12 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:12 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 16:20:12 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:12 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:12 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:12 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:12 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:12 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:12 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:12 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:12 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:12 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:12 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:12 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:12 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:12 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:12 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:12 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:12 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:12 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 16:20:12 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=10&%5Bgender%5D=&commit=Calcular" for 127.0.0.1 at 2016-04-14 16:21:02 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"10", "gender"=>"", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (8.1ms)
+Completed 200 OK in 145ms (Views: 144.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 16:21:03 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 16:21:03 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 16:21:03 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 16:21:03 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 16:21:03 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 16:21:03 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 16:21:03 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 16:21:03 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 16:21:03 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 16:21:03 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 16:21:03 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 16:21:03 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 16:21:03 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 16:21:03 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 16:21:03 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 16:21:03 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 16:21:03 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 16:21:03 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:21:03 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:21:03 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 16:21:03 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 16:21:03 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=10&%5Bgender%5D=&commit=Calcular" for 127.0.0.1 at 2016-04-14 16:24:37 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"10", "gender"=>"", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (19.8ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (wrong number of arguments (4 for 1..3)):
+    18:                 .input-group
+    19:                   .input-group-addon
+    20:                     %span.glyphicon.glyphicon-user
+    21:                   = select_tag :gender, [["Hombre", :male], ["Mujer", :female]], {include_blank: t('.enter_gender'), hide_label: true, selected: params[:gender]}, { class: "selectpicker" }
+    22: 
+    23:               .form-group
+    24:                 = f.submit 'Calcular', class: 'btn btn-success btn-calculate'
+  app/views/dashboard/index.html.haml:21:in `block in _app_views_dashboard_index_html_haml__974743200442026345_70239664699480'
+  app/views/dashboard/index.html.haml:11:in `_app_views_dashboard_index_html_haml__974743200442026345_70239664699480'
+
+
+  Rendered /home/oscar/.rvm/gems/ruby-2.1.3@gobsv/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/oscar/.rvm/gems/ruby-2.1.3@gobsv/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/oscar/.rvm/gems/ruby-2.1.3@gobsv/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.6ms)
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=10&%5Bgender%5D=&commit=Calcular" for 127.0.0.1 at 2016-04-14 16:24:45 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"10", "gender"=>"", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (31.0ms)
+Completed 500 Internal Server Error in 33ms
+
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007fc3e490ba78>:0x000000038777f8>):
+    21:                   =# select_tag :gender, [["Hombre", :male], ["Mujer", :female]], {include_blank: t('.enter_gender'), hide_label: true, selected: params[:gender]}, { class: "selectpicker" }
+    22: 
+    23:               .form-group
+    24:                 = f.submit 'Calcular', class: 'btn btn-success btn-calculate'
+    25: - unless @salario.nil? || @salario == 0
+    26:   #results
+    27:     .container
+  app/views/dashboard/index.html.haml:24:in `block in _app_views_dashboard_index_html_haml__974743200442026345_29599640'
+  app/views/dashboard/index.html.haml:11:in `_app_views_dashboard_index_html_haml__974743200442026345_29599640'
+
+
+  Rendered /home/oscar/.rvm/gems/ruby-2.1.3@gobsv/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/oscar/.rvm/gems/ruby-2.1.3@gobsv/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/oscar/.rvm/gems/ruby-2.1.3@gobsv/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.4ms)
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=10&%5Bgender%5D=&commit=Calcular" for 127.0.0.1 at 2016-04-14 16:24:55 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"10", "gender"=>"", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (29.5ms)
+Completed 200 OK in 163ms (Views: 161.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 16:24:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 16:24:55 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 16:24:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 16:24:55 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 16:24:55 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 16:24:55 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 16:24:55 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 16:24:55 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 16:24:55 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 16:24:55 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 16:24:55 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 16:24:55 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 16:24:55 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 16:24:55 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 16:24:55 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 16:24:55 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 16:24:55 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 16:24:55 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:24:55 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:24:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 16:24:55 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 16:24:55 -0600
+
+
+Started POST "/?label_errors=true&method=get&url=%2Fdashboard" for 127.0.0.1 at 2016-04-14 16:25:02 -0600
+
+ActionController::RoutingError (No route matches [POST] "/"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oscar/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/oscar/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/oscar/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oscar/.rvm/gems/ruby-2.1.3@gobsv/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/oscar/.rvm/gems/ruby-2.1.3@gobsv/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/oscar/.rvm/gems/ruby-2.1.3@gobsv/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendered /home/oscar/.rvm/gems/ruby-2.1.3@gobsv/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-14 16:25:20 -0600
+Processing by DashboardController#index as HTML
+  Rendered dashboard/index.html.haml within layouts/application (28.5ms)
+Completed 200 OK in 163ms (Views: 162.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 16:25:21 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 16:25:21 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:21 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:21 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:21 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:21 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:21 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:21 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:21 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:21 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:21 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:21 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:21 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:21 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:21 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:21 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:21 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:21 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:21 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:21 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:21 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:21 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=10&%5Bgender%5D=&commit=Calcular" for 127.0.0.1 at 2016-04-14 16:25:50 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"10", "gender"=>"", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (8.4ms)
+Completed 200 OK in 146ms (Views: 144.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 16:25:50 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:50 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 16:25:50 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:50 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:50 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:50 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:50 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:50 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:50 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:50 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:50 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:50 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:50 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:50 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:50 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:50 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:50 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:50 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:50 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:50 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:50 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:50 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=10.0&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 16:25:54 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"10.0", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (10.5ms)
+Completed 200 OK in 159ms (Views: 158.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 16:25:55 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 16:25:55 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:55 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:55 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:55 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:55 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:55 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:55 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:55 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:55 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:55 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:55 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:55 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:55 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:55 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:55 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:55 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:55 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 16:25:55 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=400&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 16:26:23 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"400", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (8.8ms)
+Completed 200 OK in 151ms (Views: 149.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 16:26:23 -0600
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 16:26:23 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 16:26:23 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 16:26:23 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 16:26:23 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 16:26:23 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 16:26:23 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 16:26:23 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 16:26:23 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 16:26:23 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 16:26:23 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 16:26:23 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 16:26:23 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 16:26:23 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 16:26:23 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 16:26:23 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 16:26:23 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 16:26:23 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:26:23 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:26:23 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 16:26:23 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 16:26:23 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=400.0&%5Bgender%5D=male&commit=Calcular" for 127.0.0.1 at 2016-04-14 16:28:22 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"400.0", "gender"=>"male", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (7.3ms)
+Completed 200 OK in 165ms (Views: 164.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 16:28:22 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 16:28:22 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 16:28:22 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 16:28:22 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 16:28:22 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 16:28:22 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 16:28:22 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 16:28:22 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 16:28:22 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 16:28:22 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 16:28:22 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 16:28:22 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 16:28:22 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 16:28:22 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 16:28:22 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 16:28:22 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 16:28:22 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 16:28:22 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:28:22 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:28:22 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 16:28:22 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 16:28:22 -0600
+
+
+Started GET "/dashboard?utf8=%E2%9C%93&wage=400.0&%5Bgender%5D=female&commit=Calcular" for 127.0.0.1 at 2016-04-14 16:32:51 -0600
+Processing by DashboardController#index as HTML
+  Parameters: {"utf8"=>"✓", "wage"=>"400.0", "gender"=>"female", "commit"=>"Calcular"}
+  Rendered dashboard/index.html.haml within layouts/application (6.5ms)
+Completed 200 OK in 154ms (Views: 153.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2016-04-14 16:32:52 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-14 16:32:52 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-14 16:32:52 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-14 16:32:52 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-14 16:32:52 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-14 16:32:52 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-14 16:32:52 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-14 16:32:52 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-14 16:32:52 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-14 16:32:52 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-14 16:32:52 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-14 16:32:52 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-14 16:32:52 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-14 16:32:52 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-14 16:32:52 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-14 16:32:52 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-14 16:32:52 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-14 16:32:52 -0600
+
+
+Started GET "/assets/chart.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:32:52 -0600
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2016-04-14 16:32:52 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2016-04-14 16:32:52 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-14 16:32:52 -0600

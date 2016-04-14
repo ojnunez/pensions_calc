@@ -8,12 +8,12 @@
               =# image_tag('logo_GA-01.png')
             %br
 
-            = bootstrap_form_tag url: dashboard_index_path, method: :get do |f|
+            = bootstrap_form_tag url: dashboard_index_path, method: :get, label_errors: true do |f|
               .form-group
                 .input-group
                   .input-group-addon
                     %span.glyphicon.glyphicon-usd
-                  = f.number_field :wage, placeholder: t('.enter_wage'), autofocus: true, class: 'form-control', hide_label: true, value: params[:wage].to_f.abs
+                  = f.number_field :wage, placeholder: t('.enter_wage'), autofocus: true, class: 'form-control', hide_label: true, value: params[:wage].to_f.abs, required: true
               .form-group
                 .input-group
                   .input-group-addon
@@ -120,6 +120,8 @@
                 = t('.pension_percentage_without_subsidy')            
           .canvas-holder
             %canvas{id: "chart-area-actual"}
+            .percentage-value
+              = (@porcentaje_respecto_salario_actual*100).round(0).to_s + "%"
             :javascript
               var doughnutDataActual = [
                 {
@@ -135,6 +137,51 @@
 
               ];
             = t('.pension_percentage_without_subsidy')
+          %br
+          %br
+          %table.table.table-bordered.table-striped
+            %tr{class: "warning"}
+              %td.data-info
+                = t('.minimal_pension_subsidy')
+              %td.value
+                = number_to_currency(@pension_minima_con_subsidio)
+            %tr
+              %td.data-info
+                = t('.personal_saves_on_afp')
+              %td.value
+                = number_to_currency(@pension_segun_ahorros_actual)
+            %tr{class: "warning"}
+              %td.data-info
+                = t('.insurance_and_payments_to_afp')
+              %td.value
+                = number_to_currency(@comisiones_pagadas_a_afp_actual)
+            %tr
+              %td.data-info
+                = t('.approximate_lasting_years_private')
+              %td.value 
+                = @anios_de_pension_a_recibir 
+            %tr{class: "warning"}
+              %td.data-info
+                = t('.approximate_years_goverment_assumption')
+              %td.value
+                = @anios_financiaria_estado
+            -#
+              %tr
+                %td
+                  = t('.pension_percentage_without_subsidy')
+                %td
+                  = number_to_percentage(@porcentaje_respecto_salario_actual*100, precision: 0)
+            %tr
+              %td.data-info
+                = t('.average_financial_assumption_by_gov')
+              %td.value
+                = number_to_currency(@financiamiento_asumido_por_estado_actual)
+            %tr{class: "warning"}
+              %td.data-info
+                = t('.goverment_individual_savings')
+              %td.value
+                = number_to_percentage(@dinero_para_gobierno_actual*100, precision: 0)
+
         .col-sm-6
           %h2 
             = t('.reform')
@@ -147,6 +194,8 @@
                 = t('.pension_percentage_according_to_salary')
           .canvas-holder
             %canvas{id: "chart-area-reforma"}
+            .percentage-value
+              = (@porcentaje_respecto_salario_reforma*100).round(0).to_s + "%"            
             :javascript
               var doughnutDataReforma = [
                 {
@@ -162,6 +211,37 @@
 
               ];
             = t('.pension_percentage_according_to_salary')
+          %br
+          %br
+          %table.table.table-bordered.table-striped
+            %tr{class: "warning"}
+              %td.data-info
+                = t('.approximate_on_mixed_pensions_system')
+              %td.value
+                = number_to_currency(@pension_aproximada_reforma)
+            %tr
+              %td.data-info
+                = t('.insurance_and_payments_to_afp_reform')
+              %td.value
+                = number_to_currency(@comisiones_pagadas_a_afp_reforma)
+            -#
+              %tr
+                %td
+                  = t('.pension_percentage_according_to_salary')
+                %td
+                  = number_to_percentage(@porcentaje_respecto_salario_reforma*100, precision: 0)
+            %tr{class: "warning"}
+              %td.data-info
+                = t('.average_financial_assumption_by_gov_mixed')
+              %td.value
+                = number_to_currency(@financiamiento_asumido_por_estado_reforma)
+            %tr
+              %td.data-info
+                = t('.goverment_individual_savings_private')
+              %td.value
+                = number_to_percentage(@dinero_para_gobierno_reforma*100, precision: 0)
+
+
       :javascript
         window.onload = function(){
           var ctxActual = document.getElementById("chart-area-actual").getContext("2d");
@@ -173,80 +253,3 @@
           var ctxPension = document.getElementById("pension").getContext("2d");
           window.myBar = new Chart(ctxPension).Bar(barChartDataPension, { responsive : true });
         };
-
-      %br
-      .row
-        .col-sm-6
-          .table-responsive
-            %table.table.table-bordered.table-striped
-              %tr{class: "warning"}
-                %td
-                  = t('.minimal_pension_subsidy')
-                %td
-                  = number_to_currency(@pension_minima_con_subsidio)
-              %tr
-                %td
-                  = t('.personal_saves_on_afp')
-                %td
-                  = number_to_currency(@pension_segun_ahorros_actual)
-              %tr{class: "warning"}
-                %td
-                  = t('.insurance_and_payments_to_afp')
-                %td
-                  = number_to_currency(@comisiones_pagadas_a_afp_actual)
-              %tr
-                %td
-                  = t('.approximate_lasting_years_private')
-                %td 
-                  = @anios_de_pension_a_recibir 
-              %tr{class: "warning"}
-                %td
-                  = t('.approximate_years_goverment_assumption')
-                %td
-                  = @anios_financiaria_estado
-              -#
-                %tr
-                  %td
-                    = t('.pension_percentage_without_subsidy')
-                  %td
-                    = number_to_percentage(@porcentaje_respecto_salario_actual*100, precision: 0)
-              %tr
-                %td
-                  = t('.average_financial_assumption_by_gov')
-                %td
-                  = number_to_currency(@financiamiento_asumido_por_estado_actual)
-              %tr{class: "warning"}
-                %td
-                  = t('.goverment_individual_savings')
-                %td
-                  = number_to_percentage(@dinero_para_gobierno_actual*100, precision: 0)
-        .col-sm-6
-          .table-responsive
-            %table.table.table-bordered.table-striped
-              %tr{class: "warning"}
-                %td
-                  = t('.approximate_on_mixed_pensions_system')
-                %td
-                  = number_to_currency(@pension_aproximada_reforma)
-              %tr
-                %td
-                  = t('.insurance_and_payments_to_afp_reform')
-                %td
-                  = number_to_currency(@comisiones_pagadas_a_afp_reforma)
-              -#
-                %tr
-                  %td
-                    = t('.pension_percentage_according_to_salary')
-                  %td
-                    = number_to_percentage(@porcentaje_respecto_salario_reforma*100, precision: 0)
-              %tr{class: "warning"}
-                %td
-                  = t('.average_financial_assumption_by_gov_mixed')
-                %td
-                  = number_to_currency(@financiamiento_asumido_por_estado_reforma)
-              %tr
-                %td
-                  = t('.goverment_individual_savings_private')
-                %td
-                  = number_to_percentage(@dinero_para_gobierno_reforma*100, precision: 0)
-
