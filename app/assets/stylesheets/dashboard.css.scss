@@ -2,7 +2,6 @@
 @import 'bootstrap';
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
-@import 'chartist.min';
 
 body {
   background: #fff;
@@ -42,5 +41,48 @@ body {
   background: #fafafa;
   h2{
     text-align: center;
+    margin-bottom: 30px;
   }
 }
+
+.canvas-holder{
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.graphic-legend{
+  background: #fff;
+}
+
+.items{
+  display: table-row;
+  .color-item-gray, .text-item, .color-item-blue, .color-item-total, .color-item-fraction{
+    margin: 10px;
+    padding: 10px;
+    display: table-cell;
+  }
+  .color-item-gray, .color-item-blue, .color-item-total, .color-item-fraction{
+    width: 40px;
+    height: 10px !important;
+    padding: 10px;
+  }
+  .color-item-gray{
+    background: rgba(220,220,220,0.5);
+  }
+  .color-item-blue{
+    background: rgba(151,187,205,0.5);
+  }
+  .color-item-total{
+    background: #46BFBD;
+  }
+  .color-item-fraction{
+    background: #F7464A;
+  }
+  .text-item{
+    vertical-align: top;
+  }
+}
+              
+              

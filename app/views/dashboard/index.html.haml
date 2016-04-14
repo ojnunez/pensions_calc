@@ -13,91 +13,235 @@
                 .input-group
                   .input-group-addon
                     %span.glyphicon.glyphicon-usd
-                  = f.number_field :wage, placeholder: t('.enter_wage'), autofocus: true, class: 'form-control', hide_label: true, required: true
+                  = f.number_field :wage, placeholder: t('.enter_wage'), autofocus: true, class: 'form-control', hide_label: true, value: params[:wage].to_f.abs
               .form-group
                 .input-group
                   .input-group-addon
                     %span.glyphicon.glyphicon-user
-                  = f.select :gender, [["Hombre", :male], ["Mujer", :female]], {include_blank: t('.enter_gender'), hide_label: true, required: true}, { class: "selectpicker" }
+                  = f.select :gender, [["Hombre", :male], ["Mujer", :female]], {include_blank: t('.enter_gender'), hide_label: true, selected: params[:gender]}, { class: "selectpicker" }
 
               .form-group
                 = f.submit 'Calcular', class: 'btn btn-success btn-calculate'
-#results
-  .container
-    .col-sm-6
-      %h2 
-        = t('.current_system')
-      .table-responsive
-        %table.table.table-bordered.table-striped
-          %tr
-            %td
-              = t('.minimal_pension_subsidy')
-            %td
-              = @pension_minima_con_subsidio
-          %tr
-            %td
-              = t('.personal_saves_on_afp')
-            %td
-              = @pension_segun_ahorros_actual
-          %tr
-            %td
-              = t('.insurance_and_payments_to_afp')
-            %td
-              = @comisiones_pagadas_a_afp_actual
-          %tr
-            %td
-              = t('.approximate_lasting_years_private')
-            %td 
-              = @anios_de_pension_a_recibir 
-          %tr
-            %td
-              = t('.approximate_years_goverment_assumption')
-            %td
-              = @anios_financiaria_estado
-          %tr
-            %td
-              = t('.pension_percentage_without_subsidy')
-            %td
-              = @porcentaje_respecto_salario_actual
-          %tr
-            %td
-              = t('.average_financial_assumption_by_gov')
-            %td
-              = @financiamiento_asumido_por_estado_actual
-          %tr
-            %td
-              = t('.approximate_years_goverment_assumption')
-            %td
-              = @dinero_para_gobierno_actual
-    .col-sm-6
-      %h2 
-        = t('.reform')
-      .table-responsive
-        %table.table.table-bordered.table-striped
-          %tr
-            %td
-              = t('.approximate_on_mixed_pensions_system')
-            %td
-              = @pension_aproximada_reforma
-          %tr
-            %td
-              = t('.insurance_and_payments_to_afp')
-            %td
-              = @comisiones_pagadas_a_afp_reforma
-          %tr
-            %td
-              = t('.pension_percentage_according_to_salary')
-            %td
-              = @porcentaje_respecto_salario_reforma
-          %tr
-            %td
-              = t('.average_financial_assumption_by_gov_mixed')
-            %td
-              = @financiamiento_asumido_por_estado_reforma
-          %tr
-            %td
-              = t('.approximate_years_goverment_assumption')
-            %td
-              = @dinero_para_gobierno_reforma
-#canvas-holder
-  %canvas{id: "chart-area", width:"500", height:"500"}
+- unless @salario.nil? || @salario == 0
+  #results
+    .container
+      .row
+        .col-sm-6
+          %h2
+            Pensión a recibir
+          .well.graphic-legend
+            %p
+              Leyenda
+            .items
+              .color-item-gray
+              .text-item
+                = t('.minimal_pension_subsidy')
+            .items
+              .color-item-blue
+              .text-item
+                = t('.approximate_on_mixed_pensions_system')
+          .canvas-holder
+            %canvas{id: "pension"}
+            :javascript
+              var randomScalingFactor = function(){ return Math.round(Math.random()*100)};
+
+              var barChartDataPension = {
+                labels : ["Pensión a recibir"],
+                datasets : [
+                  {
+                    fillColor : "rgba(220,220,220,0.5)",
+                    strokeColor : "rgba(220,220,220,0.8)",
+                    highlightFill: "rgba(220,220,220,0.75)",
+                    highlightStroke: "rgba(220,220,220,1)",
+                    data : [ #{@pension_minima_con_subsidio.round(2)} ]
+                  },
+                  {
+                    fillColor : "rgba(151,187,205,0.5)",
+                    strokeColor : "rgba(151,187,205,0.8)",
+                    highlightFill : "rgba(151,187,205,0.75)",
+                    highlightStroke : "rgba(151,187,205,1)",
+                    data : [#{@pension_aproximada_reforma.round(2)}]
+                  }
+                ]
+              }
+        .col-sm-6
+          %h2
+            Comisión para AFP
+          .well.graphic-legend
+            %p
+              Leyenda
+            .items
+              .color-item-gray
+              .text-item
+                = t('.insurance_and_payments_to_afp')
+            .items
+              .color-item-blue
+              .text-item
+                = t('.insurance_and_payments_to_afp_reform') 
+          .canvas-holder
+            %canvas{id: "bar-comision-afp"}
+            :javascript
+              var randomScalingFactor = function(){ return Math.round(Math.random()*100)};
+
+              var barChartDataComision = {
+                labels : ["Comisión para AFP"],
+                datasets : [
+                  {
+                    fillColor : "rgba(220,220,220,0.5)",
+                    strokeColor : "rgba(220,220,220,0.8)",
+                    highlightFill: "rgba(220,220,220,0.75)",
+                    highlightStroke: "rgba(220,220,220,1)",
+                    data : [#{@comisiones_pagadas_a_afp_actual.round(2)}]
+                  },
+                  {
+                    fillColor : "rgba(151,187,205,0.5)",
+                    strokeColor : "rgba(151,187,205,0.8)",
+                    highlightFill : "rgba(151,187,205,0.75)",
+                    highlightStroke : "rgba(151,187,205,1)",
+                    data : [#{@comisiones_pagadas_a_afp_reforma.round(2)}]
+                  }
+                ]
+              }
+      .row
+        .col-sm-6
+          %h2 
+            = t('.current_system')
+          .well.graphic-legend
+            %p
+              Leyenda
+            .items
+              .color-item-fraction
+              .text-item
+                = t('.pension_percentage_without_subsidy')            
+          .canvas-holder
+            %canvas{id: "chart-area-actual"}
+            :javascript
+              var doughnutDataActual = [
+                {
+                  value: #{(@porcentaje_respecto_salario_actual*100).round(0)},
+                  color: '#F7464A',
+                  highlight: '#FF5A5E',
+                  label: 'Porcentaje de Rentabilidad'
+                },
+                {
+                  value: 100-#{(@porcentaje_respecto_salario_actual*100).round(0)},
+                  color: 'rgba(220,220,220,0.5)'
+                }
+
+              ];
+            = t('.pension_percentage_without_subsidy')
+        .col-sm-6
+          %h2 
+            = t('.reform')
+          .well.graphic-legend
+            %p
+              Leyenda
+            .items
+              .color-item-fraction
+              .text-item
+                = t('.pension_percentage_according_to_salary')
+          .canvas-holder
+            %canvas{id: "chart-area-reforma"}
+            :javascript
+              var doughnutDataReforma = [
+                {
+                  value: #{(@porcentaje_respecto_salario_reforma*100).round(0)},
+                  color: '#F7464A',
+                  highlight: '#FF5A5E',
+                  label: 'Porcentaje de Rentabilidad'
+                },
+                {
+                  value: 100-#{(@porcentaje_respecto_salario_reforma*100).round(0)},
+                  color: 'rgba(220,220,220,0.5)'
+                }
+
+              ];
+            = t('.pension_percentage_according_to_salary')
+      :javascript
+        window.onload = function(){
+          var ctxActual = document.getElementById("chart-area-actual").getContext("2d");
+          window.myDoughnutActual = new Chart(ctxActual).Doughnut(doughnutDataActual, {responsive : true});
+          var ctxReforma = document.getElementById("chart-area-reforma").getContext("2d");
+          window.myDoughnutReforma = new Chart(ctxReforma).Doughnut(doughnutDataReforma, {responsive : true});
+          var ctxComision = document.getElementById("bar-comision-afp").getContext("2d");
+          window.myBar = new Chart(ctxComision).Bar(barChartDataComision, { responsive : true });
+          var ctxPension = document.getElementById("pension").getContext("2d");
+          window.myBar = new Chart(ctxPension).Bar(barChartDataPension, { responsive : true });
+        };
+
+      %br
+      .row
+        .col-sm-6
+          .table-responsive
+            %table.table.table-bordered.table-striped
+              %tr
+                %td
+                  = t('.minimal_pension_subsidy')
+                %td
+                  = number_to_currency(@pension_minima_con_subsidio)
+              %tr
+                %td
+                  = t('.personal_saves_on_afp')
+                %td
+                  = number_to_currency(@pension_segun_ahorros_actual)
+              %tr
+                %td
+                  = t('.insurance_and_payments_to_afp')
+                %td
+                  = number_to_currency(@comisiones_pagadas_a_afp_actual)
+              %tr
+                %td
+                  = t('.approximate_lasting_years_private')
+                %td 
+                  = @anios_de_pension_a_recibir 
+              %tr
+                %td
+                  = t('.approximate_years_goverment_assumption')
+                %td
+                  = @anios_financiaria_estado
+              -#
+                %tr
+                  %td
+                    = t('.pension_percentage_without_subsidy')
+                  %td
+                    = number_to_percentage(@porcentaje_respecto_salario_actual*100, precision: 0)
+              %tr
+                %td
+                  = t('.average_financial_assumption_by_gov')
+                %td
+                  = number_to_currency(@financiamiento_asumido_por_estado_actual)
+              %tr
+                %td
+                  = t('.goverment_individual_savings')
+                %td
+                  = number_to_percentage(@dinero_para_gobierno_actual*100, precision: 0)
+        .col-sm-6
+          .table-responsive
+            %table.table.table-bordered.table-striped
+              %tr
+                %td
+                  = t('.approximate_on_mixed_pensions_system')
+                %td
+                  = number_to_currency(@pension_aproximada_reforma)
+              %tr
+                %td
+                  = t('.insurance_and_payments_to_afp_reform')
+                %td
+                  = number_to_currency(@comisiones_pagadas_a_afp_reforma)
+              -#
+                %tr
+                  %td
+                    = t('.pension_percentage_according_to_salary')
+                  %td
+                    = number_to_percentage(@porcentaje_respecto_salario_reforma*100, precision: 0)
+              %tr
+                %td
+                  = t('.average_financial_assumption_by_gov_mixed')
+                %td
+                  = number_to_currency(@financiamiento_asumido_por_estado_reforma)
+              %tr
+                %td
+                  = t('.goverment_individual_savings_private')
+                %td
+                  = number_to_percentage(@dinero_para_gobierno_reforma*100, precision: 0)
+
