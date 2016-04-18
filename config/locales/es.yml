@@ -3,6 +3,7 @@ es:
     index:
       enter_wage: Ingresa tu salario actual
       enter_gender: Sexo
+      mixed_system: Sistema Mixto
       current_system: Sistema Actual
       reform: Reforma 
       minimal_pension_subsidy: "Pensión mensual con subsidio de pensión mínima si aplica, en sistema actual"

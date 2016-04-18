@@ -22,34 +22,41 @@
 
               .form-group
                 = f.submit 'Calcular', class: 'btn btn-success btn-calculate'
-- unless @salario.nil? || @salario == 0
+- unless @salario.nil? || @salario <= 0
   #results
     .container
       .row
         .col-sm-6
           %h2
             Pensión a recibir
-          .well.graphic-legend
-            %p
-              Leyenda
-            .items
-              .color-item-gray
-              .text-item
-                = t('.minimal_pension_subsidy')
-            .items
-              .color-item-blue
-              .text-item
-                = t('.approximate_on_mixed_pensions_system')
-            %p.dollar-values
-              * Valores en dólares americanos (USD)
 
           .canvas-holder
+            .chart-title-current-system
+              = t('.current_system')
+            .chart-current-system
+              = "#{number_to_currency(@pension_minima_con_subsidio)}"
+            .chart-title-new-system
+              = t('.mixed_system')
+            .chart-new-system
+              = "#{number_to_currency(@pension_aproximada_reforma)}"
+            .chart-legend-current-system
+              .items
+                .color-item-gray
+                  .square
+                .item-description
+                  = t('.minimal_pension_subsidy')
+            .chart-legend-new-system
+              .items
+                .color-item-blue
+                  .square
+                .item-description
+                  = t('.approximate_on_mixed_pensions_system')
             %canvas{id: "pension"}
             :javascript
               var randomScalingFactor = function(){ return Math.round(Math.random()*100)};
 
               var barChartDataPension = {
-                labels : ["Pensión a recibir"],
+                labels : [""],
                 datasets : [
                   {
                     fillColor : "rgba(220,220,220,0.5)",
@@ -70,26 +77,33 @@
         .col-sm-6
           %h2
             Comisión para AFP
-          .well.graphic-legend
-            %p
-              Leyenda
-            .items
-              .color-item-gray
-              .text-item
-                = t('.insurance_and_payments_to_afp')
-            .items
-              .color-item-blue
-              .text-item
-                = t('.insurance_and_payments_to_afp_reform') 
-            %p.dollar-values
-              * Valores en dólares americanos (USD)
           .canvas-holder
+            .chart-title-current-system
+              = t('.current_system')
+            .chart-current-system
+              = "#{number_to_currency(@comisiones_pagadas_a_afp_actual)}"
+            .chart-title-new-system
+              = t('.mixed_system')
+            .chart-new-system
+              = "#{number_to_currency(@comisiones_pagadas_a_afp_reforma)}"
+            .chart-legend-current-system
+              .items
+                .color-item-gray
+                  .square
+                .item-description
+                  = t('.insurance_and_payments_to_afp')
+            .chart-legend-new-system
+              .items
+                .color-item-blue
+                  .square
+                .item-description
+                  = t('.insurance_and_payments_to_afp_reform') 
             %canvas{id: "bar-comision-afp"}
             :javascript
               var randomScalingFactor = function(){ return Math.round(Math.random()*100)};
 
               var barChartDataComision = {
-                labels : ["Comisión para AFP"],
+                labels : [""],
                 datasets : [
                   {
                     fillColor : "rgba(220,220,220,0.5)",
@@ -107,17 +121,11 @@
                   }
                 ]
               }
+          
       .row
         .col-sm-6
           %h2 
-            = t('.current_system')
-          .well.graphic-legend
-            %p
-              Leyenda
-            .items
-              .color-item-fraction
-              .text-item
-                = t('.pension_percentage_without_subsidy')            
+            = t('.current_system')           
           .canvas-holder
             %canvas{id: "chart-area-actual"}
             .percentage-value
@@ -136,7 +144,14 @@
                 }
 
               ];
-            = t('.pension_percentage_without_subsidy')
+          .well.graphic-legend
+            %p
+              Leyenda
+            .items
+              .color-item-fraction
+                .square
+              .text-item
+                = t('.pension_percentage_without_subsidy') 
           %br
           %br
           %table.table.table-bordered.table-striped
@@ -185,13 +200,6 @@
         .col-sm-6
           %h2 
             = t('.reform')
-          .well.graphic-legend
-            %p
-              Leyenda
-            .items
-              .color-item-fraction
-              .text-item
-                = t('.pension_percentage_according_to_salary')
           .canvas-holder
             %canvas{id: "chart-area-reforma"}
             .percentage-value
@@ -210,7 +218,14 @@
                 }
 
               ];
-            = t('.pension_percentage_according_to_salary')
+          .well.graphic-legend
+            %p
+              Leyenda
+            .items
+              .color-item-fraction
+                .square
+              .text-item
+                = t('.pension_percentage_according_to_salary')
           %br
           %br
           %table.table.table-bordered.table-striped
