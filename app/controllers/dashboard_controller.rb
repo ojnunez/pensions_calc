@@ -42,6 +42,7 @@ class DashboardController < ApplicationController
         @valor_final_reforma = @valor_final_reforma + @valor_1r + @rentabilidad_neta_en_el_tiempo_reforma
         @rentabilidad_neta_en_el_tiempo_reforma = @valor_final_reforma * @supuesto_rentabilidad_actual
       end
+      puts "===== wwww #{@rentabilidad_neta_en_el_tiempo_reforma}"
       @pension_aproximada_reforma = (@valor_final_reforma / @capital_tecnico_necesario)+207.6
       @comisiones_pagadas_a_afp_reforma = @salario > @dos_salarios_minimos ? ((@comision_seguros_reforma*12*25*(@salario-@dos_salarios_minimos))+(0.01*@dos_salarios_minimos*12*25)) : (0.01*@salario*12*25)
       @porcentaje_respecto_salario_reforma = @pension_aproximada_reforma / @salario

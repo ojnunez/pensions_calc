@@ -7,18 +7,21 @@ es:
       current_system: Sistema Actual
       reform: Reforma 
       minimal_pension_subsidy: "Pensión mensual con subsidio de pensión mínima si aplica, en sistema actual"
-      personal_saves_on_afp: Pensión mensual aproximada en AFP basado en el ahorro individual
-      insurance_and_payments_to_afp: Comisión y seguros pagados a las AFP en sistema actual
-      approximate_lasting_years_private: Años aproximados que durararía su ahorro de mantenerse el monto de pensión
-      approximate_years_goverment_assumption: Años promedio que financiaría el Estado según tablas de mortalidad
+      pension_current_system: "Pensión mensual de $ %{pension_savings} + subsidio del gobierno de $ %{goverment_subsidy}"
+      personal_saves_on_afp: "Pensión mensual según tu ahorro individual <span>%{personal_saves}</span>"
+      goverment_subsidy: "Complemento que paga el Estado para accedas a la pensión mínima <span>%{goverment_subsidy}</span>"
+      insurance_and_payments_to_afp: Seguro y comisión pagada a AFP en sistema actual
+      approximate_lasting_years_private: "Tiempo aproximado que duraría tu ahorro individual <span>%{years}</span> años"
+      approximate_years_goverment_assumption: "Tiempo aproximado que el Estado financiaría según tablas de mortalidad <span>%{years}</span> años"
       pension_percentage_without_subsidy: Porcentaje de la pensión respecto al salario en el Privado sin subsidio del Estado
       average_financial_assumption_by_gov: Financiamiento promedio asumido por el Estado en la vida de jubilado
       goverment_individual_savings: Cuanto representa de su ahorro individual el financiamiento del Estado.
-      approximate_on_mixed_pensions_system: Pensión mensual aproximada en el sistema mixto
+      approximate_on_mixed_pensions_system: Pensión mensual aproximada
       pension_percentage_according_to_salary: Porcentaje de la pensión respecto al salario según nueva Reforma
       average_financial_assumption_by_gov_mixed:  Financiamiento promedio asumido por el Estado en la vida de jubilado
       goverment_individual_savings_private: "Cuanto representa de su ahorro individual el financiamiento del Estado, si se mantuviera un ahorro privado"
-      insurance_and_payments_to_afp_reform: Comisión y seguros pagados a las AFP según nueva Reforma
+      insurance_and_payments_to_afp_reform: Comisión pagada a AFP
+      clarification_current_system: "Nota: cuando tu pensión es menor a la mínima ($207.60) el gobierno paga el complemento y cuando se termina tu ahorro, la paga completamente."
 
 
 

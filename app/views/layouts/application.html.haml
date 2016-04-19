@@ -12,7 +12,8 @@
     %link{ href: image_path('favicon.png'), sizes: '128x128', rel: 'shortcut icon' }
     %link{ href: image_path('favicon.png'), sizes: '128x128', rel: 'apple-touch-icon' }
     %link{ href: image_path('favicon.png'), sizes: '128x128', rel: 'apple-touch-icon-precomposed' }
-
+    %link{:href => "https://fonts.googleapis.com/css?family=Dosis", :rel => "stylesheet", :type => "text/css"}
+    
     = stylesheet_link_tag "application"
     = javascript_include_tag "application"
     = csrf_meta_tags
@@ -22,6 +23,8 @@
       .header-bg
         %h1
           = "Calculadora de Pensiones"
+        %h2
+          = "El Salvador"
 
     #wrapper
       = yield
