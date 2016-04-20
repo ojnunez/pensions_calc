@@ -142,16 +142,34 @@
       %br
       %br
       .row.current-system-cons
-        .col-md-12
-          .well
-            = raw t('.personal_saves_on_afp', personal_saves: number_to_currency(@pension_segun_ahorros_actual))
+        %h2.analysis-title
+          Tu pensión de acuerdo al sistema actual
+        .data-current-system-cons
+          .custom-row-data
+            .normal-well
+              = t('.personal_saves_on_afp')
+            .green-well
+              = number_to_currency(@pension_segun_ahorros_actual)
+          .clearfix        
           - if (@pension_minima_con_subsidio-@pension_segun_ahorros_actual) > 0
-            .well
-              = raw t('.goverment_subsidy', goverment_subsidy: number_to_currency(@pension_minima_con_subsidio-@pension_segun_ahorros_actual))
-          .well
-            = raw t('.approximate_lasting_years_private', years: @anios_de_pension_a_recibir)
-          .well
-            = raw t('.approximate_years_goverment_assumption', years: @anios_financiaria_estado)
+            .custom-row-data
+              .normal-well
+                = t('.goverment_subsidy')
+              .green-well
+                = number_to_currency(@pension_minima_con_subsidio-@pension_segun_ahorros_actual)
+            .clearfix
+          .custom-row-data
+            .normal-well
+              = t('.approximate_lasting_years_private')
+            .green-well
+              = "#{@anios_de_pension_a_recibir.to_s} <span>años</span>".html_safe
+          .clearfix
+          .custom-row-data
+            .normal-well
+              = t('.approximate_years_goverment_assumption')
+            .green-well
+              = "#{@anios_financiaria_estado.to_s} <span>años</span>".html_safe
+          .clearfix
             
       %br
       %br

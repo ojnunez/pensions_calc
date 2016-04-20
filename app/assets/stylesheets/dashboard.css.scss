@@ -37,6 +37,51 @@ body {
     font-size: 26px;
     font-weight: bold;
   }
+  .data-current-system-cons{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    .custom-row-data{
+      min-height: 20px;
+      .normal-well{
+        display: inline-block;
+        height: inherit;
+        padding: 19px;
+        margin-bottom: 20px;
+        background-color: #F5F5F5;
+        border: 1px solid #E3E3E3;
+        border-radius: 4px;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05) inset;
+        width: 77%;
+        margin-right: 1%;
+        float: left;
+        height: 70px;
+      }
+      .green-well{
+        display: inline-block;
+        height: inherit;
+        padding: 14px;
+        margin-bottom: 20px;
+        background-color: #95CA46;
+        border: 1px solid #88BF44;
+        border-radius: 4px;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05) inset;
+        width: 22%;
+        float: left;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        overflow: hidden;
+        text-align: left;
+        height: 70px;
+        vertical-align: middle;
+        span{
+          font-size: 16px;
+          color: inherit;
+        }
+      }
+    }
+  }
 }
 
 p.calc-description{
